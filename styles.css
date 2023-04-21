@@ -73,7 +73,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding:15px 10px;
-    background-color: #FBEAEB;
+    background-color: #fbeaebfa;
     margin-bottom: 10px;
     border-radius:15px;
     font-size: larger;
@@ -124,16 +124,16 @@ h1 {
     }
 
     .input-container input{
-        font-size: 20px;
+        font-size: 25px;
         padding: 30px;
-        border-radius: 1em;
+        border-radius: 0.7em;
     }
 
     .input-container button{
-        font-size: 20px;
+        font-size: 25px;
         
         padding: 30px 25px;
-        border-radius: 1em;
+        border-radius: 0.7em;
     }
 
     .tasks-container li{
@@ -151,13 +151,21 @@ h1 {
 
     .tasks-container li .delete-task-button{
         font-size: 20px;
-        padding: 15px 13px;
+        padding: 18px 18px;
         margin-right:10px;
         border-radius: 0.7em;
     }
 
     .tasks-container li input[type="checkbox"]{
         margin-left: 20px;
+        
+         /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
     }
 
     .input-container button:hover {
@@ -171,6 +179,7 @@ h1 {
     }
     .input-container {
         margin:30px 0;
+       
     }
 
     .tasks-container {
