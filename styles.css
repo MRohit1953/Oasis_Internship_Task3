@@ -150,7 +150,7 @@ h1 {
     }
 
     .tasks-container li .delete-task-button{
-        font-size: 20px;
+        font-size: 24px;
         padding: 18px 18px;
         margin-right:10px;
         border-radius: 0.7em;
@@ -170,11 +170,13 @@ h1 {
 
     .input-container button:hover {
         background-color: #268528;
-        padding: 10px 20px;
+        
         color: #FCEDDA;
         transition-duration: 0.3s;
-        transition-property: initial;
-        font-size: large;
+        
+        font-size: 25px;
+        padding: 0 25px;
+        
         
     }
     .input-container {
