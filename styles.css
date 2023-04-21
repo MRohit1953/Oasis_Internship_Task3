@@ -133,8 +133,9 @@ h1 {
     }
 
     .tasks-container li{
-        font-size: 20px;
-        padding: 20px 10px;
+        font-size: 30px;
+        padding: 25px 10px;
+        
     }
 
     .tasks-container h2{
@@ -143,9 +144,26 @@ h1 {
 
     .tasks-container li .delete-task-button{
         font-size: 20px;
+        padding: 10px 10px;
+        margin-right:10px;
     }
 
+    .tasks-container li input[type="checkbox"]{
+        margin-left: 20px;
+    }
 
+    .input-container button:hover {
+        background-color: #268528;
+        padding: 10px 20px;
+        color: #FCEDDA;
+        transition-duration: 0.3s;
+        transition-property: initial;
+        font-size: large;
+        
+    }
+    .input-container {
+        margin:30px 0;
+    }
 }
 
 
