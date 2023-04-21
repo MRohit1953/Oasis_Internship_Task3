@@ -1,4 +1,4 @@
-# TO DD APP
+# TO-DO WEB APP
 
 A simple to do app made using html, css and javascript for the given tasks during my internship at Oasis Infobyte
 
