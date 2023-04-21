@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Open+Sans&display=swap');
+html{
+    
+    font-family: 'Asap', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #181717;
+    
+
+}
+h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+  }
+  
+
+
+  .input-container input {
+    padding: 13px;
+    margin-right: 10px;
+    border-radius: 6px;
+    color: #2F3C7E;
+    font-weight: 900;
+    font-size: medium;
+  }
+  
+  .input-container button {
+    padding: 5px 10px;
+    background-color: #FCEDDA;
+    color: #2C5F2D;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 700;
+    
+  }
+  
+    .input-container button:hover {
+        background-color: #268528;
+        padding: 5px 10px;
+        color: #FCEDDA;
+        transition-duration: 0.3s;
+        transition-property: initial;
+        font-size: small;
+
+        
+    }
+  .tasks-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+
+  .tasks-container h2 {
+    margin-top: 20px;
+    color: white;
+  }
+  
+
+  .tasks-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tasks-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 10px;
+    background-color: #FBEAEB;
+    margin-bottom: 10px;
+    border-radius:15px;
+    font-size: larger;
+    font-weight: 900;
+    color: #2F3C7E;
+
+  }
+  .tasks-container li:hover{
+        background-color: #2F3C7E;
+        transition-duration: 0.3s;
+        color:#FBEAEB;
+  }
+  
+  .tasks-container li:last-child {
+    margin-bottom: 0;
+  }
+  
+
+  .tasks-container li input[type="checkbox"] {
+    margin-right: 10px;
+    
+  }
+
+
+  
+
+  .tasks-container li .delete-task-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 8px 10px;
+  }
+  
+    .tasks-container li .delete-task-button:hover {
+        background-color: #c91609;
+        
+        transition-duration: 0.3s;
+        transition-property: initial;
+    }
+
+
